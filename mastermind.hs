@@ -1,3 +1,4 @@
+-- ce que le programme va faire
 -- afficher
 -- presenter
 -- demander coups
