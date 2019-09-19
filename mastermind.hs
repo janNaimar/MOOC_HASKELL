@@ -111,7 +111,8 @@ demander n = do
 jouer :: IO()
 jouer = do
   presenter
-  tour vie secret_combi
+  alea_combi <- alea_code
+  tour vie alea_combi
 
 afficher_analyse :: String -> IO()
 afficher_analyse code = putStrLn $ "Analyse: " ++ code
